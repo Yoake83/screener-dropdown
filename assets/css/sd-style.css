@@ -1,0 +1,70 @@
+/* Wrapper to allow horizontal scrolling on very small screens */
+#sd-results-wrapper {
+  width: 100%;
+  overflow-x: auto; /* horizontal scroll if needed */
+   /* smooth scrolling on iOS */
+  margin: 0;            /* Remove any automatic centering */
+  padding: 10px; 
+      box-sizing: border-box;
+}
+
+/* Main table styling */
+#sd-results {
+  width: 100% ;
+  border-collapse: collapse;
+  table-layout: fixed; /* fixed column widths */
+   
+}
+
+/* Header and cell styles */
+#sd-results th,
+#sd-results td {
+  white-space: nowrap; /* prevent unwanted wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis; /* show ... if content is too long */
+  padding: 8px ;
+  max-width: 200px; /* optional: limit column width */
+  box-sizing: border-box;
+  vertical-align: middle;
+   word-wrap: break-word;
+text-align: left;  
+    font-size: 10px;
+       border: 1px solid #0d0d0d;
+}
+
+/* Responsive behavior for smaller screens */
+@media screen and (max-width: 768px) {
+  #sd-results th,
+  #sd-results td {
+    white-space: normal; /* allow wrapping */
+    max-width: none; /* remove fixed width */
+    word-wrap: break-word; /* break long words */
+    font-size: 10px;
+    padding: 6px ;
+  }
+
+  /* Optional: make table scrollable on very small screens */
+  #sd-results-wrapper {
+    overflow-x: auto;
+  }
+}
+#sd-results th {
+    background-color: #f2f2f2;
+    text-align: left; /* Align headers to left */
+}
+/* Optional: style filter rows and inputs for consistency */
+.sd-filter-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.sd-filter-row .sd-col {
+  flex: 1 1 150px;
+  min-width: 120px;
+}
+
+.sd-filter-row .sd-del {
+  flex: 0 0 auto;
+}

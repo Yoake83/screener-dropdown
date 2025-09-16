@@ -1,0 +1,656 @@
+metric,datatype,statement
+Accounts Payables (Annual),int,Balance Sheet
+Accounts Payables (Quarter),int,Balance Sheet
+Accounts Payables (TTM),int,Balance Sheet
+Accumulated Other Comprehensive Income (Annual),int,Balance Sheet
+Accumulated Other Comprehensive Income (Quarter),int,Balance Sheet
+Accumulated Other Comprehensive Income (TTM),int,Balance Sheet
+Asset Turnover Ratio (Annual),int,Others
+Asset Turnover Ratio (Quarter),int,Others
+Asset Turnover Ratio (TTM),int,Others
+Asset Utilization Ratio (Annual),int,Others
+Asset Utilization Ratio (Quarter),int,Others
+Asset Utilization Ratio (TTM),int,Others
+Assets Non-Current (Annual),int,Others
+Assets Non-Current (Quarter),int,Others
+Assets Non-Current (TTM),int,Others
+Book Value per Share,int,Valuation Multiples
+Business Acquisitions and Disposals (Annual),int,Cash Flow Statement Highlights
+Business Acquisitions and Disposals (Quarter),int,Cash Flow Statement Highlights
+Business Acquisitions and Disposals (TTM),int,Cash Flow Statement Highlights
+Capex Growth (1y) % (Annual),%,Growth Metrics
+Capex Growth (1y) % (Quarter),%,Growth Metrics
+Capex Growth (1y) % (TTM),%,Growth Metrics
+Capex Growth (3y CAGR) % (Annual),%,Growth Metrics
+Capex Growth (3y CAGR) % (Quarter),%,Growth Metrics
+Capex Growth (3y CAGR) % (TTM),%,Growth Metrics
+Capex Growth (5y CAGR) % (Annual),%,Growth Metrics
+Capex Growth (5y CAGR) % (Quarter),%,Growth Metrics
+Capex Growth (5y CAGR) % (TTM),%,Growth Metrics
+Capex Growth QoQ (bps) (Quarter),%,Growth Metrics
+Capex Growth QoQ (bps) (TTM),%,Growth Metrics
+Capex as a % of Revenue (Annual),%,Others
+Capex as a % of Revenue (Quarter),%,Others
+Capex as a % of Revenue (TTM),%,Others
+Capital Employed (Annual),int,Others
+Capital Employed (Quarter),int,Others
+Capital Employed (TTM),int,Others
+Capital Expenditure (-1) (Annual),int,Cash Flow Statement Highlights
+Capital Expenditure (-1) (Quarter),int,Cash Flow Statement Highlights
+Capital Expenditure (-1) (TTM),int,Cash Flow Statement Highlights
+Capital Expenditure (Annual),int,Others
+Capital Expenditure (Quarter),int,Others
+Capital Expenditure (TTM),int,Others
+Capital Expenditure (USD) (Annual),int,Others
+Capital Expenditure (USD) (Quarter),int,Others
+Capital Expenditure (USD) (TTM),int,Others
+Cash Payout Ratio (Annual),int,Others
+Cash Payout Ratio (Quarter),int,Others
+Cash Payout Ratio (TTM),int,Others
+Cash Ratio (Annual),int,Others
+Cash Ratio (Quarter),int,Others
+Cash Ratio (TTM),int,Others
+Cash and Equivalents (Annual),int,Balance Sheet
+Cash and Equivalents (Quarter),int,Balance Sheet
+Cash and Equivalents (TTM),int,Balance Sheet
+Cash and Equivalents Growth (1y) % (Annual),%,Growth Metrics
+Cash and Equivalents Growth (1y) % (Quarter),%,Growth Metrics
+Cash and Equivalents Growth (1y) % (TTM),%,Growth Metrics
+Cash and Equivalents Growth (3y CAGR) % (Annual),%,Growth Metrics
+Cash and Equivalents Growth (3y CAGR) % (Quarter),%,Growth Metrics
+Cash and Equivalents Growth (3y CAGR) % (TTM),%,Growth Metrics
+Cash and Equivalents Growth (5y CAGR) % (Annual),%,Growth Metrics
+Cash and Equivalents Growth (5y CAGR) % (Quarter),%,Growth Metrics
+Cash and Equivalents Growth (5y CAGR) % (TTM),%,Growth Metrics
+Cash and Equivalents Growth QoQ (bps) (Quarter),%,Growth Metrics
+Cash and Equivalents Growth QoQ (bps) (TTM),%,Growth Metrics
+Company Name,string,Others
+Cost of Revenues (Annual),int,Income Statement
+Cost of Revenues (Quarter),int,Income Statement
+Cost of Revenues (TTM),int,Income Statement
+Current Assets (Annual),int,Others
+Current Assets (Quarter),int,Others
+Current Assets (TTM),int,Others
+Current Liabilities (Annual),int,Others
+Current Liabilities (Quarter),int,Others
+Current Liabilities (TTM),int,Others
+Current Ratio (Annual),int,Others
+Current Ratio (Quarter),int,Others
+Current Ratio (TTM),int,Others
+Date of Screening,date,Others
+Debt Ratio (Annual),int,Profitability & other metrics
+Debt Ratio (Quarter),int,Profitability & other metrics
+Debt Ratio (TTM),int,Profitability & other metrics
+Debt to Equity Ratio (Annual),int,Profitability & other metrics
+Debt to Equity Ratio (Quarter),int,Profitability & other metrics
+Debt to Equity Ratio (TTM),int,Profitability & other metrics
+Deferred Revenue (Annual),int,Balance Sheet
+Deferred Revenue (Quarter),int,Balance Sheet
+Deferred Revenue (TTM),int,Balance Sheet
+Delisted,string,Others
+Deposit Liabilities (Annual),int,Others
+Deposit Liabilities (Quarter),int,Others
+Deposit Liabilities (TTM),int,Others
+Depreciation Amortization & Accretion (Annual),int,Cash Flow Statement Highlights
+Depreciation Amortization & Accretion (Quarter),int,Cash Flow Statement Highlights
+Depreciation Amortization & Accretion (TTM),int,Cash Flow Statement Highlights
+Dividend Coverage Ratio (Annual),int,Profitability & other metrics
+Dividend Coverage Ratio (Quarter),int,Profitability & other metrics
+Dividend Coverage Ratio (TTM),int,Profitability & other metrics
+Dividend Growth (1y) % (Annual),%,Growth Metrics
+Dividend Growth (1y) % (Quarter),%,Growth Metrics
+Dividend Growth (1y) % (TTM),%,Growth Metrics
+Dividend Growth (3y CAGR) % (Annual),%,Growth Metrics
+Dividend Growth (3y CAGR) % (Quarter),%,Growth Metrics
+Dividend Growth (3y CAGR) % (TTM),%,Growth Metrics
+Dividend Growth (5y CAGR) % (Annual),%,Growth Metrics
+Dividend Growth (5y CAGR) % (Quarter),%,Growth Metrics
+Dividend Growth (5y CAGR) % (TTM),%,Growth Metrics
+Dividend Growth QoQ (bps) (Quarter),%,Growth Metrics
+Dividend Growth QoQ (bps) (TTM),%,Growth Metrics
+Dividend Payout Ratio % (Annual),%,Profitability & other metrics
+Dividend Payout Ratio % (Quarter),%,Profitability & other metrics
+Dividend Payout Ratio % (TTM),%,Profitability & other metrics
+Dividend Yield %,%,Profitability & other metrics
+Dividend per Basic Share (Annual),int,Profitability & other metrics
+Dividend per Basic Share (Quarter),int,Profitability & other metrics
+Dividend per Basic Share (TTM),int,Profitability & other metrics
+Dividends & Other Cash Distributions (Annual),int,Cash Flow Statement Highlights
+Dividends & Other Cash Distributions (Quarter),int,Cash Flow Statement Highlights
+Dividends & Other Cash Distributions (TTM),int,Cash Flow Statement Highlights
+EBIAT (Annual),int,Others
+EBIAT (Quarter),int,Others
+EBIAT (TTM),int,Others
+EBIAT Growth (1y) % (Annual),%,Growth Metrics
+EBIAT Growth (1y) % (Quarter),%,Growth Metrics
+EBIAT Growth (1y) % (TTM),%,Growth Metrics
+EBIAT Growth (3y CAGR) % (Annual),%,Growth Metrics
+EBIAT Growth (3y CAGR) % (Quarter),%,Growth Metrics
+EBIAT Growth (3y CAGR) % (TTM),%,Growth Metrics
+EBIAT Growth (5y CAGR) % (Annual),%,Growth Metrics
+EBIAT Growth (5y CAGR) % (Quarter),%,Growth Metrics
+EBIAT Growth (5y CAGR) % (TTM),%,Growth Metrics
+EBIAT Growth QoQ (bps) (Quarter),%,Growth Metrics
+EBIAT Growth QoQ (bps) (TTM),%,Growth Metrics
+EBIT (USD) (Annual),int,Others
+EBIT (USD) (Quarter),int,Others
+EBIT (USD) (TTM),int,Others
+EBIT Growth (1y) % (Annual),%,Growth Metrics
+EBIT Growth (1y) % (Quarter),%,Growth Metrics
+EBIT Growth (1y) % (TTM),%,Growth Metrics
+EBIT Growth (3y CAGR) % (Annual),%,Growth Metrics
+EBIT Growth (3y CAGR) % (Quarter),%,Growth Metrics
+EBIT Growth (3y CAGR) % (TTM),%,Growth Metrics
+EBIT Growth (5y CAGR) % (Annual),%,Growth Metrics
+EBIT Growth (5y CAGR) % (Quarter),%,Growth Metrics
+EBIT Growth (5y CAGR) % (TTM),%,Growth Metrics
+EBIT Growth QoQ (bps) (Quarter),%,Growth Metrics
+EBIT Growth QoQ (bps) (TTM),%,Growth Metrics
+EBIT Margin % (Annual),%,Profitability & other metrics
+EBIT Margin % (Quarter),%,Profitability & other metrics
+EBIT Margin % (TTM),%,Profitability & other metrics
+EBITDA (Annual),int,Others
+EBITDA (Quarter),int,Others
+EBITDA (TTM),int,Others
+EBITDA Growth (1y) % (Annual),%,Growth Metrics
+EBITDA Growth (1y) % (Quarter),%,Growth Metrics
+EBITDA Growth (1y) % (TTM),%,Growth Metrics
+EBITDA Growth (3y CAGR) % (Annual),%,Growth Metrics
+EBITDA Growth (3y CAGR) % (Quarter),%,Growth Metrics
+EBITDA Growth (3y CAGR) % (TTM),%,Growth Metrics
+EBITDA Growth (5y CAGR) % (Annual),%,Growth Metrics
+EBITDA Growth (5y CAGR) % (Quarter),%,Growth Metrics
+EBITDA Growth (5y CAGR) % (TTM),%,Growth Metrics
+EBITDA Growth QoQ (bps) (Quarter),%,Growth Metrics
+EBITDA Growth QoQ (bps) (TTM),%,Growth Metrics
+EBITDA Margin % (Annual),%,Profitability & other metrics
+EBITDA Margin % (Quarter),%,Profitability & other metrics
+EBITDA Margin % (TTM),%,Profitability & other metrics
+EBITDA Margin Growth 1y (bps) (Annual),int,Growth Metrics
+EBITDA Margin Growth 1y (bps) (Quarter),int,Growth Metrics
+EBITDA Margin Growth 1y (bps) (TTM),int,Growth Metrics
+EBITDA Margin Growth 3y (bps) (Annual),int,Growth Metrics
+EBITDA Margin Growth 3y (bps) (Quarter),int,Growth Metrics
+EBITDA Margin Growth 3y (bps) (TTM),int,Growth Metrics
+EBITDA Margin Growth 5y (bps) (Annual),int,Growth Metrics
+EBITDA Margin Growth 5y (bps) (Quarter),int,Growth Metrics
+EBITDA Margin Growth 5y (bps) (TTM),int,Growth Metrics
+EBITDA Margin Growth QoQ (bps) (Quarter),int,Growth Metrics
+EBITDA Margin Growth QoQ (bps) (TTM),int,Growth Metrics
+EBT (Annual),int,Income Statement
+EBT (Quarter),int,Income Statement
+EBT (TTM),int,Income Statement
+EBT Growth (1y) % (Annual),%,Growth Metrics
+EBT Growth (1y) % (Quarter),%,Growth Metrics
+EBT Growth (1y) % (TTM),%,Growth Metrics
+EBT Growth (3y CAGR) % (Annual),%,Growth Metrics
+EBT Growth (3y CAGR) % (Quarter),%,Growth Metrics
+EBT Growth (3y CAGR) % (TTM),%,Growth Metrics
+EBT Growth (5y CAGR) % (Annual),%,Growth Metrics
+EBT Growth (5y CAGR) % (Quarter),%,Growth Metrics
+EBT Growth (5y CAGR) % (TTM),%,Growth Metrics
+EBT Growth QoQ (bps) (Quarter),%,Growth Metrics
+EBT Growth QoQ (bps) (TTM),%,Growth Metrics
+EBT Margin % (Annual),%,Profitability & other metrics
+EBT Margin % (Quarter),%,Profitability & other metrics
+EBT Margin % (TTM),%,Profitability & other metrics
+EBT Margin Growth 1y (bps) (Annual),int,Growth Metrics
+EBT Margin Growth 1y (bps) (Quarter),int,Growth Metrics
+EBT Margin Growth 1y (bps) (TTM),int,Growth Metrics
+EBT Margin Growth 3y (bps) (Annual),int,Growth Metrics
+EBT Margin Growth 3y (bps) (Quarter),int,Growth Metrics
+EBT Margin Growth 3y (bps) (TTM),int,Growth Metrics
+EBT Margin Growth 5y (bps) (Annual),int,Growth Metrics
+EBT Margin Growth 5y (bps) (Quarter),int,Growth Metrics
+EBT Margin Growth 5y (bps) (TTM),int,Growth Metrics
+EBT Margin Growth QoQ (bps) (Quarter),int,Growth Metrics
+EBT Margin Growth QoQ (bps) (TTM),int,Growth Metrics
+EPS (USD) (Annual),int,Others
+EPS (USD) (Quarter),int,Others
+EPS (USD) (TTM),int,Others
+EPS Growth (1y) % (Annual),%,Growth Metrics
+EPS Growth (1y) % (Quarter),%,Growth Metrics
+EPS Growth (1y) % (TTM),%,Growth Metrics
+EPS Growth (3y CAGR) % (Annual),%,Growth Metrics
+EPS Growth (3y CAGR) % (Quarter),%,Growth Metrics
+EPS Growth (3y CAGR) % (TTM),%,Growth Metrics
+EPS Growth (5y CAGR) % (Annual),%,Growth Metrics
+EPS Growth (5y CAGR) % (Quarter),%,Growth Metrics
+EPS Growth (5y CAGR) % (TTM),%,Growth Metrics
+EPS Growth QoQ (bps) (Quarter),%,Growth Metrics
+EPS Growth QoQ (bps) (TTM),%,Growth Metrics
+EV to Assets,int,Valuation Multiples
+EV to Cash from Ops.,int,Valuation Multiples
+EV to Debt,int,Valuation Multiples
+EV to EBIT,int,Valuation Multiples
+EV to EBITDA,int,Valuation Multiples
+EV to Free Cash Flow [EV/FCF],int,Valuation Multiples
+EV to Market Cap,int,Valuation Multiples
+EV to Revenue,int,Valuation Multiples
+Earnings from Continuing Operations (Annual),int,Others
+Earnings from Continuing Operations (Quarter),int,Others
+Earnings from Continuing Operations (TTM),int,Others
+Earnings per Diluted Share (Annual),int,Others
+Earnings per Diluted Share (Quarter),int,Others
+Earnings per Diluted Share (TTM),int,Others
+Enterprise Value (EV),int,Others
+Equity Multiplier (Annual),int,Profitability & other metrics
+Equity Multiplier (Quarter),int,Profitability & other metrics
+Equity Multiplier (TTM),int,Profitability & other metrics
+Expenses towards minority interests (Annual),int,Income Statement
+Expenses towards minority interests (Quarter),int,Income Statement
+Expenses towards minority interests (TTM),int,Income Statement
+FCF Dividend Payout Ratio % (Annual),%,Profitability & other metrics
+FCF Dividend Payout Ratio % (Quarter),%,Profitability & other metrics
+FCF Dividend Payout Ratio % (TTM),%,Profitability & other metrics
+FCF Growth (1y) % (Annual),%,Growth Metrics
+FCF Growth (1y) % (Quarter),%,Growth Metrics
+FCF Growth (1y) % (TTM),%,Growth Metrics
+FCF Growth (3y CAGR) % (Annual),%,Growth Metrics
+FCF Growth (3y CAGR) % (Quarter),%,Growth Metrics
+FCF Growth (3y CAGR) % (TTM),%,Growth Metrics
+FCF Growth (5y CAGR) % (Annual),%,Growth Metrics
+FCF Growth (5y CAGR) % (Quarter),%,Growth Metrics
+FCF Growth (5y CAGR) % (TTM),%,Growth Metrics
+FCF Growth QoQ (bps) (Quarter),%,Growth Metrics
+FCF Growth QoQ (bps) (TTM),%,Growth Metrics
+Free Cash Flow (USD) (Annual),int,Others
+Free Cash Flow (USD) (Quarter),int,Others
+Free Cash Flow (USD) (TTM),int,Others
+Free Cash Flow [FCF] (Annual),int,Cash Flow Statement Highlights
+Free Cash Flow [FCF] (Quarter),int,Cash Flow Statement Highlights
+Free Cash Flow [FCF] (TTM),int,Cash Flow Statement Highlights
+Free Cash Flow per Share [FCF per Share] (Annual),int,Others
+Free Cash Flow per Share [FCF per Share] (Quarter),int,Others
+Free Cash Flow per Share [FCF per Share] (TTM),int,Others
+Gross Margin % (Annual),%,Profitability & other metrics
+Gross Margin % (Quarter),%,Profitability & other metrics
+Gross Margin % (TTM),%,Profitability & other metrics
+Gross Margin Growth 1y (bps) (Annual),int,Growth Metrics
+Gross Margin Growth 1y (bps) (Quarter),int,Growth Metrics
+Gross Margin Growth 1y (bps) (TTM),int,Growth Metrics
+Gross Margin Growth 3y (bps) (Annual),int,Growth Metrics
+Gross Margin Growth 3y (bps) (Quarter),int,Growth Metrics
+Gross Margin Growth 3y (bps) (TTM),int,Growth Metrics
+Gross Margin Growth 5y (bps) (Annual),int,Growth Metrics
+Gross Margin Growth 5y (bps) (Quarter),int,Growth Metrics
+Gross Margin Growth 5y (bps) (TTM),int,Growth Metrics
+Gross Margin Growth QoQ (bps) (Quarter),int,Growth Metrics
+Gross Margin Growth QoQ (bps) (TTM),int,Growth Metrics
+Gross Profit (Annual),int,Income Statement
+Gross Profit (Quarter),int,Income Statement
+Gross Profit (TTM),int,Income Statement
+Gross Profit (USD) (Annual),int,Others
+Gross Profit (USD) (Quarter),int,Others
+Gross Profit (USD) (TTM),int,Others
+Gross Profit Growth (1y) % (Annual),%,Growth Metrics
+Gross Profit Growth (1y) % (Quarter),%,Growth Metrics
+Gross Profit Growth (1y) % (TTM),%,Growth Metrics
+Gross Profit Growth (3y CAGR) % (Annual),%,Growth Metrics
+Gross Profit Growth (3y CAGR) % (Quarter),%,Growth Metrics
+Gross Profit Growth (3y CAGR) % (TTM),%,Growth Metrics
+Gross Profit Growth (5y CAGR) % (Annual),%,Growth Metrics
+Gross Profit Growth (5y CAGR) % (Quarter),%,Growth Metrics
+Gross Profit Growth (5y CAGR) % (TTM),%,Growth Metrics
+Gross Profit Growth QoQ (bps) (Quarter),%,Growth Metrics
+Gross Profit Growth QoQ (bps) (TTM),%,Growth Metrics
+Income Tax (Annual),int,Income Statement
+Income Tax (Quarter),int,Income Statement
+Income Tax (TTM),int,Income Statement
+Industry,string,Others
+Intangible Assets (Annual),int,Balance Sheet
+Intangible Assets (Quarter),int,Balance Sheet
+Intangible Assets (TTM),int,Balance Sheet
+Interest Cover Ratio (Annual),int,Others
+Interest Cover Ratio (Quarter),int,Others
+Interest Cover Ratio (TTM),int,Others
+Interest Expense & Investment Income (Annual),int,Income Statement
+Interest Expense & Investment Income (Quarter),int,Income Statement
+Interest Expense & Investment Income (TTM),int,Income Statement
+Interest Expense (Annual),int,Others
+Interest Expense (Quarter),int,Others
+Interest Expense (TTM),int,Others
+Inventory Growth (1y) % (Annual),%,Growth Metrics
+Inventory Growth (1y) % (Quarter),%,Growth Metrics
+Inventory Growth (1y) % (TTM),%,Growth Metrics
+Inventory Growth (3y) % (Annual),%,Growth Metrics
+Inventory Growth (3y) % (Quarter),%,Growth Metrics
+Inventory Growth (3y) % (TTM),%,Growth Metrics
+Inventory Growth (5y) % (Annual),%,Growth Metrics
+Inventory Growth (5y) % (Quarter),%,Growth Metrics
+Inventory Growth (5y) % (TTM),%,Growth Metrics
+Inventory Growth QoQ (bps) (Quarter),%,Growth Metrics
+Inventory Growth QoQ (bps) (TTM),%,Growth Metrics
+Invested Capital (Annual),int,Others
+Invested Capital (Quarter),int,Others
+Invested Capital (TTM),int,Others
+Invested Capital Average (Annual),int,Others
+Invested Capital Average (Quarter),int,Others
+Invested Capital Average (TTM),int,Others
+Investment Acquisitions and Disposals (Annual),int,Cash Flow Statement Highlights
+Investment Acquisitions and Disposals (Quarter),int,Cash Flow Statement Highlights
+Investment Acquisitions and Disposals (TTM),int,Cash Flow Statement Highlights
+Investments (Annual),int,Others
+Investments (Quarter),int,Others
+Investments (TTM),int,Others
+Issuance (Purchase) of Equity Shares (Annual),int,Cash Flow Statement Highlights
+Issuance (Purchase) of Equity Shares (Quarter),int,Cash Flow Statement Highlights
+Issuance (Purchase) of Equity Shares (TTM),int,Cash Flow Statement Highlights
+Issuance (Repayment) of Debt Securities (Annual),int,Cash Flow Statement Highlights
+Issuance (Repayment) of Debt Securities (Quarter),int,Cash Flow Statement Highlights
+Issuance (Repayment) of Debt Securities (TTM),int,Cash Flow Statement Highlights
+Long Term Debt (Annual),int,Balance Sheet
+Long Term Debt (Quarter),int,Balance Sheet
+Long Term Debt (TTM),int,Balance Sheet
+Long-Term Investments (Annual),int,Balance Sheet
+Long-Term Investments (Quarter),int,Balance Sheet
+Long-Term Investments (TTM),int,Balance Sheet
+Market Capitalization,int,Others
+NOPAT (Annual),int,Others
+NOPAT (Quarter),int,Others
+NOPAT (TTM),int,Others
+NOPAT Growth (1y) % (Annual),%,Growth Metrics
+NOPAT Growth (1y) % (Quarter),%,Growth Metrics
+NOPAT Growth (1y) % (TTM),%,Growth Metrics
+NOPAT Growth (3y) % (Annual),%,Growth Metrics
+NOPAT Growth (3y) % (Quarter),%,Growth Metrics
+NOPAT Growth (3y) % (TTM),%,Growth Metrics
+NOPAT Growth (5y) % (Annual),%,Growth Metrics
+NOPAT Growth (5y) % (Quarter),%,Growth Metrics
+NOPAT Growth (5y) % (TTM),%,Growth Metrics
+NOPAT Growth QoQ (bps) (Quarter),%,Growth Metrics
+NOPAT Growth QoQ (bps) (TTM),%,Growth Metrics
+Net Cash Flow (Annual),int,Cash Flow Statement Highlights
+Net Cash Flow (Quarter),int,Cash Flow Statement Highlights
+Net Cash Flow (TTM),int,Cash Flow Statement Highlights
+Net Cash Flow (USD) (Annual),int,Others
+Net Cash Flow (USD) (Quarter),int,Others
+Net Cash Flow (USD) (TTM),int,Others
+Net Cash Flow from Financing (Annual),int,Cash Flow Statement Highlights
+Net Cash Flow from Financing (Quarter),int,Cash Flow Statement Highlights
+Net Cash Flow from Financing (TTM),int,Cash Flow Statement Highlights
+Net Cash Flow from Investing (Annual),int,Cash Flow Statement Highlights
+Net Cash Flow from Investing (Quarter),int,Cash Flow Statement Highlights
+Net Cash Flow from Investing (TTM),int,Cash Flow Statement Highlights
+Net Cash Flow from Operations (Annual),int,Cash Flow Statement Highlights
+Net Cash Flow from Operations (Quarter),int,Cash Flow Statement Highlights
+Net Cash Flow from Operations (TTM),int,Cash Flow Statement Highlights
+Net Income Common Stock (USD) (Annual),int,Others
+Net Income Common Stock (USD) (Quarter),int,Others
+Net Income Common Stock (USD) (TTM),int,Others
+Net Income Growth (1y) % (Annual),%,Growth Metrics
+Net Income Growth (1y) % (Quarter),%,Growth Metrics
+Net Income Growth (1y) % (TTM),%,Growth Metrics
+Net Income Growth (3y CAGR) % (Annual),%,Growth Metrics
+Net Income Growth (3y CAGR) % (Quarter),%,Growth Metrics
+Net Income Growth (3y CAGR) % (TTM),%,Growth Metrics
+Net Income Growth (5y CAGR) % (Annual),%,Growth Metrics
+Net Income Growth (5y CAGR) % (Quarter),%,Growth Metrics
+Net Income Growth (5y CAGR) % (TTM),%,Growth Metrics
+Net Income Growth QoQ (bps) (Quarter),%,Growth Metrics
+Net Income Growth QoQ (bps) (TTM),%,Growth Metrics
+Net Income from Discontinued Operations (Annual),int,Others
+Net Income from Discontinued Operations (Quarter),int,Others
+Net Income from Discontinued Operations (TTM),int,Others
+Net Margin Growth 1y (bps) (Annual),int,Growth Metrics
+Net Margin Growth 1y (bps) (Quarter),int,Growth Metrics
+Net Margin Growth 1y (bps) (TTM),int,Growth Metrics
+Net Margin Growth 3y (bps) (Annual),int,Growth Metrics
+Net Margin Growth 3y (bps) (Quarter),int,Growth Metrics
+Net Margin Growth 3y (bps) (TTM),int,Growth Metrics
+Net Margin Growth 5y (bps) (Annual),int,Growth Metrics
+Net Margin Growth 5y (bps) (Quarter),int,Growth Metrics
+Net Margin Growth 5y (bps) (TTM),int,Growth Metrics
+Net Margin Growth QoQ (bps) (Quarter),int,Growth Metrics
+Net Margin Growth QoQ (bps) (TTM),int,Growth Metrics
+Net Profit Margin % (Annual),%,Profitability & other metrics
+Net Profit Margin % (Quarter),%,Profitability & other metrics
+Net Profit Margin % (TTM),%,Profitability & other metrics
+Net income from minority interests (Annual),%,Income Statement
+Net income from minority interests (Quarter),%,Income Statement
+Net income from minority interests (TTM),%,Income Statement
+Non-Current Liabilities (Annual),int,Balance Sheet
+Non-Current Liabilities (Quarter),int,Balance Sheet
+Non-Current Liabilities (TTM),int,Balance Sheet
+OPEX Growth (1y) % (Annual),%,Growth Metrics
+OPEX Growth (1y) % (Quarter),%,Growth Metrics
+OPEX Growth (1y) % (TTM),%,Growth Metrics
+OPEX Growth (3y CAGR) % (Annual),%,Growth Metrics
+OPEX Growth (3y CAGR) % (Quarter),%,Growth Metrics
+OPEX Growth (3y CAGR) % (TTM),%,Growth Metrics
+OPEX Growth (5y CAGR) % (Annual),%,Growth Metrics
+OPEX Growth (5y CAGR) % (Quarter),%,Growth Metrics
+OPEX Growth (5y CAGR) % (TTM),%,Growth Metrics
+OPEX Growth QoQ (bps) (Quarter),%,Growth Metrics
+OPEX Growth QoQ (bps) (TTM),%,Growth Metrics
+Operating Income (Annual),int,Income Statement
+Operating Income (Quarter),int,Income Statement
+Operating Income (TTM),int,Income Statement
+Operating Income Growth (1y) % (Annual),%,Growth Metrics
+Operating Income Growth (1y) % (Quarter),%,Growth Metrics
+Operating Income Growth (1y) % (TTM),%,Growth Metrics
+Operating Income Growth (3y CAGR) % (Annual),%,Growth Metrics
+Operating Income Growth (3y CAGR) % (Quarter),%,Growth Metrics
+Operating Income Growth (3y CAGR) % (TTM),%,Growth Metrics
+Operating Income Growth (5y CAGR) % (Annual),%,Growth Metrics
+Operating Income Growth (5y CAGR) % (Quarter),%,Growth Metrics
+Operating Income Growth (5y CAGR) % (TTM),%,Growth Metrics
+Operating Income Growth QoQ (bps) (Quarter),%,Growth Metrics
+Operating Income Growth QoQ (bps) (TTM),%,Growth Metrics
+Other Current Assets (Annual),int,Balance Sheet
+Other Current Assets (Quarter),int,Balance Sheet
+Other Current Assets (TTM),int,Balance Sheet
+Other Current Liabilities (Annual),int,Balance Sheet
+Other Current Liabilities (Quarter),int,Balance Sheet
+Other Current Liabilities (TTM),int,Balance Sheet
+Other Non Current Liabilities (Annual),int,Balance Sheet
+Other Non Current Liabilities (Quarter),int,Balance Sheet
+Other Non Current Liabilities (TTM),int,Balance Sheet
+Other Non-Current Assets (Annual),int,Balance Sheet
+Other Non-Current Assets (Quarter),int,Balance Sheet
+Other Non-Current Assets (TTM),int,Balance Sheet
+Other Operating Expenses (Annual),int,Income Statement
+Other Operating Expenses (Quarter),int,Income Statement
+Other Operating Expenses (TTM),int,Income Statement
+Price to Book Value [P/B],int,Valuation Multiples
+Price to Earnings [P/E],int,Valuation Multiples
+Price to Free Cash Flow [P/FCF],int,Valuation Multiples
+Price to Sales [P/S],int,Valuation Multiples
+"Property Plant & Equipment, net (Annual)",int,Balance Sheet
+"Property Plant & Equipment, net (Quarter)",int,Balance Sheet
+"Property Plant & Equipment, net (TTM)",int,Balance Sheet
+R&D Expenses (Annual),int,Income Statement
+R&D Expenses (Quarter),int,Income Statement
+R&D Expenses (TTM),int,Income Statement
+ROA - Return on Assets (%) (Annual),%,Profitability & other metrics
+ROA - Return on Assets (%) (Quarter),%,Profitability & other metrics
+ROA - Return on Assets (%) (TTM),%,Profitability & other metrics
+ROA Growth 1y (bps) (Annual),int,Growth Metrics
+ROA Growth 1y (bps) (Quarter),int,Growth Metrics
+ROA Growth 1y (bps) (TTM),int,Growth Metrics
+ROA Growth 3y (bps) (Annual),int,Growth Metrics
+ROA Growth 3y (bps) (Quarter),int,Growth Metrics
+ROA Growth 3y (bps) (TTM),int,Growth Metrics
+ROA Growth 5y (bps) (Annual),int,Growth Metrics
+ROA Growth 5y (bps) (Quarter),int,Growth Metrics
+ROA Growth 5y (bps) (TTM),int,Growth Metrics
+ROA Growth QoQ (bps) (Quarter),int,Growth Metrics
+ROA Growth QoQ (bps) (TTM),int,Growth Metrics
+ROCE - Return on Capital Employed (%) (Annual),%,Profitability & other metrics
+ROCE - Return on Capital Employed (%) (Quarter),%,Profitability & other metrics
+ROCE - Return on Capital Employed (%) (TTM),%,Profitability & other metrics
+ROCE Growth 1y (bps) (Annual),int,Growth Metrics
+ROCE Growth 1y (bps) (Quarter),int,Growth Metrics
+ROCE Growth 1y (bps) (TTM),int,Growth Metrics
+ROCE Growth 3y (bps) (Annual),int,Growth Metrics
+ROCE Growth 3y (bps) (Quarter),int,Growth Metrics
+ROCE Growth 3y (bps) (TTM),int,Growth Metrics
+ROCE Growth 5y (bps) (Annual),int,Growth Metrics
+ROCE Growth 5y (bps) (Quarter),int,Growth Metrics
+ROCE Growth 5y (bps) (TTM),int,Growth Metrics
+ROCE Growth QoQ (bps) (Quarter),int,Growth Metrics
+ROCE Growth QoQ (bps) (TTM),int,Growth Metrics
+ROE - Return on Equity (%) (Annual),%,Profitability & other metrics
+ROE - Return on Equity (%) (Quarter),%,Profitability & other metrics
+ROE - Return on Equity (%) (TTM),%,Profitability & other metrics
+ROE Growth 1y (bps) (Annual),int,Growth Metrics
+ROE Growth 1y (bps) (Quarter),int,Growth Metrics
+ROE Growth 1y (bps) (TTM),int,Growth Metrics
+ROE Growth 3y (bps) (Annual),int,Growth Metrics
+ROE Growth 3y (bps) (Quarter),int,Growth Metrics
+ROE Growth 3y (bps) (TTM),int,Growth Metrics
+ROE Growth 5y (bps) (Annual),int,Growth Metrics
+ROE Growth 5y (bps) (Quarter),int,Growth Metrics
+ROE Growth 5y (bps) (TTM),int,Growth Metrics
+ROE Growth QoQ (bps) (Quarter),int,Growth Metrics
+ROE Growth QoQ (bps) (TTM),int,Growth Metrics
+ROIC - Return on Invested Capital (%) (Annual),%,Profitability & other metrics
+ROIC - Return on Invested Capital (%) (Quarter),%,Profitability & other metrics
+ROIC - Return on Invested Capital (%) (TTM),%,Profitability & other metrics
+ROIC Growth 1y (bps) (Annual),int,Growth Metrics
+ROIC Growth 1y (bps) (Quarter),int,Growth Metrics
+ROIC Growth 1y (bps) (TTM),int,Growth Metrics
+ROIC Growth 3y (bps) (Annual),int,Growth Metrics
+ROIC Growth 3y (bps) (Quarter),int,Growth Metrics
+ROIC Growth 3y (bps) (TTM),int,Growth Metrics
+ROIC Growth 5y (bps) (Annual),int,Growth Metrics
+ROIC Growth 5y (bps) (Quarter),int,Growth Metrics
+ROIC Growth 5y (bps) (TTM),int,Growth Metrics
+ROIC Growth QoQ (bps) (Quarter),int,Growth Metrics
+ROIC Growth QoQ (bps) (TTM),int,Growth Metrics
+ROS - Return on Sales (%) (Annual),%,Profitability & other metrics
+ROS - Return on Sales (%) (Quarter),%,Profitability & other metrics
+ROS - Return on Sales (%) (TTM),%,Profitability & other metrics
+Retained Earnings (Annual),int,Others
+Retained Earnings (Quarter),int,Others
+Retained Earnings (TTM),int,Others
+Return on Capital Employed (Annual),int,Others
+Return on Capital Employed (Quarter),int,Others
+Return on Capital Employed (TTM),int,Others
+Revenue (USD) (Annual),int,Others
+Revenue (USD) (Quarter),int,Others
+Revenue (USD) (TTM),int,Others
+Revenue Growth (1y) % (Annual),%,Growth Metrics
+Revenue Growth (1y) % (Quarter),%,Growth Metrics
+Revenue Growth (1y) % (TTM),%,Growth Metrics
+Revenue Growth (3y CAGR) % (Annual),%,Growth Metrics
+Revenue Growth (3y CAGR) % (Quarter),%,Growth Metrics
+Revenue Growth (3y CAGR) % (TTM),%,Growth Metrics
+Revenue Growth (5y CAGR) % (Annual),%,Growth Metrics
+Revenue Growth (5y CAGR) % (Quarter),%,Growth Metrics
+Revenue Growth (5y CAGR) % (TTM),%,Growth Metrics
+Revenue Growth QoQ (bps) (Quarter),%,Growth Metrics
+Revenue Growth QoQ (bps) (TTM),%,Growth Metrics
+Sales per Share (Annual),int,Others
+Sales per Share (Quarter),int,Others
+Sales per Share (TTM),int,Others
+Sector,string,Others
+Selling General and Admin Expenses (Annual),int,Income Statement
+Selling General and Admin Expenses (Quarter),int,Income Statement
+Selling General and Admin Expenses (TTM),int,Income Statement
+Share Outstanding (Weighted Average) (Annual),int,Others
+Share Outstanding (Weighted Average) (Quarter),int,Others
+Share Outstanding (Weighted Average) (TTM),int,Others
+Shareholders Equity (USD) (Annual),int,Others
+Shareholders Equity (USD) (Quarter),int,Others
+Shareholders Equity (USD) (TTM),int,Others
+Shares Outstanding (Annual),int,Others
+Shares Outstanding (Quarter),int,Others
+Shares Outstanding (TTM),int,Others
+Shares Outstanding (Weighted Average Diluted) (Annual),int,Others
+Shares Outstanding (Weighted Average Diluted) (Quarter),int,Others
+Shares Outstanding (Weighted Average Diluted) (TTM),int,Others
+Short Term Debt (Annual),int,Balance Sheet
+Short Term Debt (Quarter),int,Balance Sheet
+Short Term Debt (TTM),int,Balance Sheet
+Short Term Investments (Annual),int,Balance Sheet
+Short Term Investments (Quarter),int,Balance Sheet
+Short Term Investments (TTM),int,Balance Sheet
+Stock Comp. Expenses (Annual),int,Cash Flow Statement Highlights
+Stock Comp. Expenses (Quarter),int,Cash Flow Statement Highlights
+Stock Comp. Expenses (TTM),int,Cash Flow Statement Highlights
+Stock Comp. Growth (1y) % (Annual),%,Growth Metrics
+Stock Comp. Growth (1y) % (Quarter),%,Growth Metrics
+Stock Comp. Growth (1y) % (TTM),%,Growth Metrics
+Stock Comp. Growth (3y CAGR) % (Annual),%,Growth Metrics
+Stock Comp. Growth (3y CAGR) % (Quarter),%,Growth Metrics
+Stock Comp. Growth (3y CAGR) % (TTM),%,Growth Metrics
+Stock Comp. Growth (5y CAGR) % (Annual),%,Growth Metrics
+Stock Comp. Growth (5y CAGR) % (Quarter),%,Growth Metrics
+Stock Comp. Growth (5y CAGR) % (TTM),%,Growth Metrics
+Stock Comp. Growth QoQ (bps) (Quarter),%,Growth Metrics
+Stock Comp. Growth QoQ (bps) (TTM),%,Growth Metrics
+Stock Comp. as a % of Revenue (Annual),%,Others
+Stock Comp. as a % of Revenue (Quarter),%,Others
+Stock Comp. as a % of Revenue (TTM),%,Others
+Stock price % From 52W High,%,Price Performance
+Stock price % From 52W Low,%,Price Performance
+Stock price 1 Day %,%,Price Performance
+Stock price 1 Month %,%,Price Performance
+Stock price 1 Week %,%,Price Performance
+Stock price 1 Year %,%,Price Performance
+Stock price 3 Month %,%,Price Performance
+Stock price 6 Month %,%,Price Performance
+Stock price YTD %,%,Price Performance
+Tangible Asset Value (Annual),int,Others
+Tangible Asset Value (Quarter),int,Others
+Tangible Asset Value (TTM),int,Others
+Tax Assets (Annual),int,Others
+Tax Assets (Quarter),int,Others
+Tax Assets (TTM),int,Others
+Tax Liabilities (Annual),int,Others
+Tax Liabilities (Quarter),int,Others
+Tax Liabilities (TTM),int,Others
+Tax Rate % (Annual),%,Profitability & other metrics
+Tax Rate % (Quarter),%,Profitability & other metrics
+Tax Rate % (TTM),%,Profitability & other metrics
+Tax Rate Growth 1y (bps) (Annual),int,Growth Metrics
+Tax Rate Growth 1y (bps) (Quarter),int,Growth Metrics
+Tax Rate Growth 1y (bps) (TTM),int,Growth Metrics
+Tax Rate Growth 3y (bps) (Annual),int,Growth Metrics
+Tax Rate Growth 3y (bps) (Quarter),int,Growth Metrics
+Tax Rate Growth 3y (bps) (TTM),int,Growth Metrics
+Tax Rate Growth 5y (bps) (Annual),int,Growth Metrics
+Tax Rate Growth 5y (bps) (Quarter),int,Growth Metrics
+Tax Rate Growth 5y (bps) (TTM),int,Growth Metrics
+Tax Rate Growth QoQ (bps) (Quarter),int,Growth Metrics
+Tax Rate Growth QoQ (bps) (TTM),int,Growth Metrics
+Ticker,string,Others
+Times Interest Earned (Annual),int,Others
+Times Interest Earned (Quarter),int,Others
+Times Interest Earned (TTM),int,Others
+Total Assets (Annual),int,Others
+Total Assets (Quarter),int,Others
+Total Assets (TTM),int,Others
+Total Consolidated Income (Annual),int,Income Statement
+Total Consolidated Income (Quarter),int,Income Statement
+Total Consolidated Income (TTM),int,Income Statement
+Total Debt (Annual),int,Others
+Total Debt (Quarter),int,Others
+Total Debt (TTM),int,Others
+Total Debt (USD) (Annual),int,Others
+Total Debt (USD) (Quarter),int,Others
+Total Debt (USD) (TTM),int,Others
+Total Debt Growth (1y) % (Annual),%,Growth Metrics
+Total Debt Growth (1y) % (Quarter),%,Growth Metrics
+Total Debt Growth (1y) % (TTM),%,Growth Metrics
+Total Debt Growth (3y CAGR) % (Annual),%,Growth Metrics
+Total Debt Growth (3y CAGR) % (Quarter),%,Growth Metrics
+Total Debt Growth (3y CAGR) % (TTM),%,Growth Metrics
+Total Debt Growth (5y CAGR) % (Annual),%,Growth Metrics
+Total Debt Growth (5y CAGR) % (Quarter),%,Growth Metrics
+Total Debt Growth (5y CAGR) % (TTM),%,Growth Metrics
+Total Debt Growth QoQ (bps) (Quarter),%,Growth Metrics
+Total Debt Growth QoQ (bps) (TTM),%,Growth Metrics
+Total Liabilities (Annual),int,Others
+Total Liabilities (Quarter),int,Others
+Total Liabilities (TTM),int,Others
+Total Operating Expenses (Annual),int,Income Statement
+Total Operating Expenses (Quarter),int,Income Statement
+Total Operating Expenses (TTM),int,Income Statement
+Total Receivables (Annual),int,Balance Sheet
+Total Receivables (Quarter),int,Balance Sheet
+Total Receivables (TTM),int,Balance Sheet
+Working Capital (Annual),int,Others
+Working Capital (Quarter),int,Others
+Working Capital (TTM),int,Others
